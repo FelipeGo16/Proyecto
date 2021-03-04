@@ -1,0 +1,19 @@
+
+<section id="seccion">      
+
+          <p>Nombre:
+          <input [(ngModel)]="user.nombre" type="text">
+         
+        <p>Su nombre es: {{user.nombre}}</p> 
+
+        <p>Apellido:
+        <input [(ngModel)]="user.apellido" type="text">
+         
+        <p>Su apellido es: {{user.apellido}}</p>
+   
+         Calcular:
+        <input [(ngModel)]="valor1" type="number">
+        <input [(ngModel)]="valor2" type="number">
+         
+        <p>{{suma()}}</p> 
+</section>
